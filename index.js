@@ -23,7 +23,7 @@ function distanceTravelledInFeet(start, destination) {
 
 function calculatesFarePrice(start, destination) {
   if (start <= 400) {
-    return "heres a free samples"
+    return (start * .00)
   }
-  
+
 }
