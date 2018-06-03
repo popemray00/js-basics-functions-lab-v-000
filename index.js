@@ -13,6 +13,6 @@ function distanceFromHqInFeet(someValue) {
 }
 
 function distanceTravelledInFeet(someValue) {
-  return distanceFromHqInFeet(someValue)
+  return distanceFromHqInFeet(someValue) * 264
 
 }
