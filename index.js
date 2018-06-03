@@ -19,5 +19,11 @@ function distanceTravelledInFeet(start, destination) {
   else {
     return (start - destination) * 264
   }
+}
 
+function calculatesFarePrice(start, destination) {
+  if (start <= 400) {
+    return "heres a free samples"
+  }
+  
 }
